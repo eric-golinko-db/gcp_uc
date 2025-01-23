@@ -31,8 +31,9 @@ targets:
     mode: development
     default: true
     variables:
-      catalog_name: dev
+      catalog_name: eric_dev
     workspace:
+      # TODO: add dev workspace URL
       host: https://416411475796958.8.gcp.databricks.com
 
   staging:
